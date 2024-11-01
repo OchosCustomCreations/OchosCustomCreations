@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Small Business</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Business</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a variety of services to meet your needs.</p>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about our mission and values.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@mybusiness.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Hover over the pictures below to see their converted image.</p>
+            <div class="gallery-container" id="gallery-container"></div>
+        </section>
+
+        <section id="form">
+            <h2>Contact Form</h2>
+
+            <div class="form">
+                <h3>Contact Form</h3>
+                <form action="https://formspree.io/f/mrbgpqvz" method="POST">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="tel" name="Phone" placeholder="Phone Number(Optional)" optional>
+                    <textarea name="Message" placeholder="Message" required></textarea>
+                    <input type="file" Name="Image" accept="image/png, image/jpeg" placeholder="Image(Optional)" optional>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Small Business.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
